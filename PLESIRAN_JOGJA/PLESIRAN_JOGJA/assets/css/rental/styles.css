@@ -1,0 +1,42 @@
+/* Main styling */
+.main-image {
+  border-radius: 5px;
+}
+
+.thumbnail-images img {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+.booking-card {
+  background-color: #f5f0e1;
+  border-radius: 8px;
+}
+
+.sub-total {
+  font-size: 24px;
+  color: #000;
+}
+
+.specifications,
+.important-info,
+.pickup-location {
+  background-color: #f5f0e1;
+  border-radius: 8px;
+}
+
+.map-placeholder {
+  height: 200px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  font-size: 14px;
+}
+
+.footer i {
+  font-size: 18px;
+}

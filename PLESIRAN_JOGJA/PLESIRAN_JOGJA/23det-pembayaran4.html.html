@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plesiran Jogja</title>
+    <link rel="stylesheet" href="assets/css/hotel/detail pembayaran 4.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="navbar">
+        <img src="logo.png" alt="Logo" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Tour & Trip</a></li>
+            <li><a href="#">Hotel</a></li>
+            <li><a href="#">Rental</a></li>
+          </ul>
+        </nav>
+        <div class="user-icon"><img src="img/user.jpeg" alt="User" /></div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>HOTEL TENTREM YOGYAKARTA</h1>
+        <p><i class="fas fa-info-circle"></i> Payment Information</p>
+        <div class="booking-info">
+          <!-- Bagian Date -->
+          <div class="date">
+            <i class="fas fa-calendar-alt"></i>
+            November 10 - November 11
+            <i class="fas fa-caret-down"></i>
+          </div>
+
+          <!-- Bagian Rooms -->
+          <div class="rooms">
+            <i class="fas fa-user"></i>
+            <select class="room-selector">
+              <option>1 Room, 1 Adult</option>
+              <option>1 Room, 2 Adults</option>
+              <option>2 Rooms, 2 Adults</option>
+              <option>2 Rooms, 3 Adults</option>
+              <option>2 Rooms, 4 Adults</option>
+              <option>3 Rooms, 5 Adults</option>
+            </select>
+            <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+      <div class="step active"></div>
+      <div class="step active"></div>
+      <div class="step active"></div>
+    </div>
+
+    <!-- Accordion -->
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header">
+          <span class="number">1.</span>
+          <span class="title">Detail Reservation</span>
+          <i class="fas fa-caret-down"></i>
+        </button>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header">
+          <span class="number">2.</span>
+          <span class="title">Personal Data</span>
+          <i class="fas fa-caret-down"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Payment Section -->
+    <div class="payment-section">
+      <!-- Payment Header -->
+      <div class="payment-header">
+        <span class="number">3.</span>
+        <h2>Payment</h2>
+      </div>
+
+      <!-- Payment Body -->
+      <div class="payment-body">
+        <h3>Choose Payment Method</h3>
+
+        <!-- Virtual Account Options -->
+        <h4>Virtual Account</h4>
+        <div class="payment-method">
+          <label for="bca">
+            <input type="radio" id="bca" name="payment" value="bca" />
+            BCA Virtual Account
+            <img src="assets/img/HOTEL/bca logo.png" alt="BCA" />
+          </label>
+
+          <label for="bni">
+            <input type="radio" id="bni" name="payment" value="bni" />
+            BNI Virtual Account
+            <img src="assets/img/HOTEL/bni logo.png" alt="BNI" />
+          </label>
+
+          <label for="mandiri">
+            <input type="radio" id="mandiri" name="payment" value="mandiri" />
+            Mandiri Virtual Account
+            <img src="assets/img/HOTEL/mandiri logo.png" alt="Mandiri" />
+          </label>
+
+          <label for="other">
+            <input type="radio" id="other" name="payment" value="other" />
+            Other Bank
+          </label>
+        </div>
+
+        <!-- Electronic Money Options -->
+        <h4>Electronic Money</h4>
+        <div class="payment-method">
+          <label for="gopay">
+            <input type="radio" id="gopay" name="payment" value="gopay" />
+            Gopay
+            <img src="assets/img/HOTEL/gopay logo.png" alt="GoPay" />
+          </label>
+
+          <label for="ovo">
+            <input type="radio" id="ovo" name="payment" value="ovo" />
+            OVO
+            <img src="assets/img/HOTEL/ovo logo.png" alt="OVO" />
+          </label>
+
+          <label for="linkaja">
+            <input type="radio" id="linkaja" name="payment" value="linkaja" />
+            LinkAja
+            <img src="assets/img/HOTEL/link aja logo.png" alt="LinkAja" />
+          </label>
+
+          <label for="shopeepay">
+            <input type="radio" id="shopeepay" name="payment" value="shopeepay" />
+            ShopeePay
+            <img src="assets/img/HOTEL/shopeepay logo.png" alt="ShopeePay" />
+          </label>
+        </div>
+      </div>
+
+      <!-- Total Section (moved inside Payment Section) -->
+      <div class="total-section">
+        <div class="total-row">
+          <div class="total-label">
+            <h3>Total</h3>
+          </div>
+          <div class="total-amount">
+            <h3>5.782.000 IDR</h3>
+          </div>
+        </div>
+
+        <div class="total-row">
+          <div class="total-label">
+            <p>Not included: VAT / Consumption tax 12%</p>
+          </div>
+          <div class="total-amount">
+            <p>687.360 IDR</p>
+          </div>
+        </div>
+
+        <div class="total-row">
+          <div class="total-label">
+            <p>Not included: Service Charge 10%</p>
+          </div>
+          <div class="total-amount">
+            <p>578.200 IDR</p>
+          </div>
+        </div>
+
+        <div class="total-row">
+          <div class="total-label">
+            <p>The total amount is:</p>
+          </div>
+          <div class="total-amount">
+            <h3>7.047.560 IDR</h3>
+          </div>
+        </div>
+
+        <div class="button-container">
+          <button class="pay-now">Pay Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- Logo and Navigation Links -->
+        <div class="footer-section footer-navigation">
+          <img src="logo.png" alt="Plesiran Jogja Logo" class="footer-logo" />
+          <nav>
+            <a href="#">Discovery</a>
+            <a href="#">Trip</a>
+            <a href="#">Rent</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+          </nav>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="footer-section footer-contact">
+          <p><i class="fas fa-envelope"></i> plesiranjogja@gmail.com</p>
+          <p><i class="fas fa-phone-alt"></i> 0812345678</p>
+          <p><i class="fas fa-map-marker-alt"></i> Sleman, Yogyakarta</p>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="footer-section footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <p class="footer-copyright">Copyright © 2024 - All rights Reserved</p>
+    </footer>
+  </body>
+</html>

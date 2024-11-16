@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro';
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #000;
+    color: #fff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #B29A73;
+}
+
+.user-icon img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    background-color: #E8E1D0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.payment-method, .total, .instructions {
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.total-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+}
+
+.va-box {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.va-details {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #000;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f3e5;
+    max-width: 300px;
+}
+
+.va-details p {
+    margin: 5px 0;
+}
+
+.va-details .pay-before {
+    color: #d9534f;
+    font-size: 13px;
+}
+
+.va-details .va-number {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.va-details .va-number img {
+    margin-left: 8px;
+    width: 40px;
+    height: auto;
+}
+
+.va-details .total {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.va-details .details-link {
+    color: #007bff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.va-details .details-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #E8E1D0;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 20rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-logo {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+.footer-navigation nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.footer-navigation nav a:hover {
+    color: #B29A73;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-contact p {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.footer-contact p i {
+    margin-right: 0.5rem;
+    color: #333;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-social a {
+    color: #fff;
+    background-color: #333;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    background-color: #B29A73;
+}
+
+.footer-social i {
+    color: #fff;
+}
+
+.footer-copyright {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 1rem;
+}
+
+/* Responsive styling for other elements except navbar and footer */
+@media (max-width: 768px) {
+    /* Container adjustments for smaller screens */
+    .container {
+        width: 100%;
+        padding: 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* Responsive adjustments for h2 */
+    h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    /* Responsive payment details */
+    .payment-method, .total, .instructions {
+        padding-top: 10px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .total-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Responsive VA details */
+    .va-details {
+        width: 100%;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .va-details .total {
+        font-size: 14px;
+    }
+
+    /* Make VA box layout stack vertically */
+    .va-box {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+}
+
+/* Adjustments for even smaller screens */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .payment-method, .total, .instructions {
+        font-size: 12px;
+    }
+
+    .va-details .va-number img {
+        width: 30px;
+    }
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details Hotel - Plesiran Jogja</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.6.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/detail hotel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand me-auto" href="#">
+          <img src="./assets/img/logo.png" alt="Logo" width="172" height="60" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas bg-dark offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/img/logo.png" alt="Logo" width="172" height="60" /></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="1homepage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="2destination.html">Discover</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="10tour.html">Trip&Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-lg-2" aria-current="page" href="18list-hotel.html">Hotel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="25rental.html">Rental</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="assets/img/profile.jpg" alt="Profile" class="profile-image" /></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownProfilButton">
+            <li class="dropdown-item">
+              <i class="fa-regular fa-user"></i>
+              <a href="29profile.html">My Profile</a>
+            </li>
+            <hr />
+            <li class="dropdown-item">
+              <i class="fa-solid fa-file-invoice"></i>
+              <a href="30.myreservasi.html">My Reservation</a>
+            </li>
+            <hr />
+            <li class="dropdown-item">
+              <i class="fa-solid fa-right-from-bracket"></i>
+              <a href="0login.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <div class="star-rating">★★★★★</div>
+        <h3>LUXURY HOTEL AND RESORT</h3>
+        <h1>THE BEST LUXURY HOTEL IN YOGYAKARTA</h1>
+        <div class="booking-form">
+          <div class="form-group">
+            <label for="check-in">Check-in</label>
+            <input type="date" id="check-in" placeholder="dd/mm/yy" />
+          </div>
+          <div class="form-group">
+            <label for="check-out">Check-out</label>
+            <input type="date" id="check-out" placeholder="dd/mm/yy" />
+          </div>
+          <div class="form-group">
+            <label for="rooms">Rooms</label>
+            <select id="rooms">
+              <option>1 Rooms</option>
+              <option>2 Rooms</option>
+              <option>3 Rooms</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="guests">Guests</label>
+            <select id="guests">
+              <option>1 Adult, 0 Child</option>
+              <option>1 Adult, 1 Child</option>
+              <option>2 Adult, 1 Child</option>
+              <option>2 Adult, 2 Child</option>
+              <option>3 Adult, 1 Child</option>
+            </select>
+          </div>
+          <button class="book-now-btn">Book Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="rooms">
+      <h2>TENTREM'S ROOMS & SUITES</h2>
+      <div class="room-cards">
+        <div class="room-card">
+          <a href="19detail-room.html" class="room-link">
+            <img src="assets/img/HOTEL/executive suite.jpg" alt="Executive Suite" />
+            <h3 class="clickable">Executive Suite</h3>
+            <p><strong>Max. guest</strong></p>
+            <p>2 adults & 2 child / 3 adults & 1 child</p>
+            <p><strong>AVAILABLE FROM 5.782.000 IDR</strong></p>
+            <div class="star-rating">★★★★★</div>
+          </a>
+        </div>
+        <div class="room-card">
+          <img src="assets/img/HOTEL/premier room.jpg" alt="Premier Rooms" />
+          <h3 class="clickable">Premier Rooms</h3>
+          <p><strong>Max. guest</strong></p>
+          <p>2 adults & 2 child / 3 adults & 1 child</p>
+          <p><strong>AVAILABLE FROM 2.432.000 IDR</strong></p>
+          <div class="star-rating">★★★★★</div>
+        </div>
+        <div class="room-card">
+          <img src="assets/img/HOTEL/deluxe room.jpg" alt="Deluxe Rooms" />
+          <h3 class="clickable">Deluxe Rooms</h3>
+          <p><strong>Max. guest</strong></p>
+          <p>2 adults & 2 child / 3 adults & 1 child</p>
+          <p><strong>AVAILABLE FROM 1.982.000 IDR</strong></p>
+          <div class="star-rating">★★★★★</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section class="facilities mt-2">
+      <h2>OUR FACILITIES</h2>
+      <div class="facility-images">
+        <img src="assets/img/HOTEL/facility1.jpg" alt="Facility 1" />
+        <img src="assets/img/HOTEL/facility2.jpg" alt="Facility 2" />
+        <img src="assets/img/HOTEL/facility3.jpg" alt="Facility 3" />
+        <img src="assets/img/HOTEL/facility4.jpg" alt="Facility 4" />
+        <img src="assets/img/HOTEL/facility5.jpg" alt="Facility 5" />
+        <img src="assets/img/HOTEL/facility6.jpg" alt="Facility 6" />
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location">
+      <h2>LOCATION HOTEL</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.150983660013!2d110.36590257358016!3d-7.773809977115957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58485d4d2de1%3A0x59986450d810f006!2sHotel%20Tentrem%20Yogyakarta!5e0!3m2!1sen!2sid!4v1730739001900!5m2!1sen!2sid"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      >
+      </iframe>
+    </section>
+
+    <!-- Reviews Section -->
+    <div class="reviews">
+      <h2>REVIEWS</h2>
+      <div class="review-overview">
+        <div class="score-details">
+          <h3>5.00</h3>
+          <p>3,422 Reviews</p>
+        </div>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="review-list">
+        <div class="review-item">
+          <div class="review-details">
+            <div class="reviewer">
+              <img src="assets/img/HOTEL/logo user.png" alt="Reviewer" />
+              <div>
+                <h4>Voyage47858908110</h4>
+                <p class="review-date">October 2024</p>
+              </div>
+            </div>
+            <span class="stars">★★★★★</span>
+          </div>
+          <p class="review-text">Truly a 5 Star Experience in Yogya! I always choose to stay here for a family trip to Yogya. Spacious clean room, tasty food, and friendly smiles!</p>
+          <div class="helpful">Helpful? Yes</div>
+        </div>
+
+        <div class="review-item">
+          <div class="review-details">
+            <div class="reviewer">
+              <img src="assets/img/HOTEL/logo user.png" alt="Reviewer" />
+              <div>
+                <h4>Dipta N</h4>
+                <p class="review-date">September 2024</p>
+              </div>
+            </div>
+            <span class="stars">★★★★★</span>
+          </div>
+          <p class="review-text">Perfect! Best moment with kayumanis all perfect and best service with niken and dewi all good and hoping to visit again.</p>
+          <div class="helpful">Helpful? Yes</div>
+        </div>
+
+        <div class="review-item">
+          <div class="review-details">
+            <div class="reviewer">
+              <img src="assets/img/HOTEL/logo user.png" alt="Reviewer" />
+              <div>
+                <h4>Quest39477093230</h4>
+                <p class="review-date">September 2024</p>
+              </div>
+            </div>
+            <span class="stars">★★★★★</span>
+          </div>
+          <p class="review-text">Nice Fragrant Hotel, Excellent Servicem, Good Restaurant. Plenty of food variants, Good Services, Worth it values, Trademark of Tentrem Hotel YES IT IS.</p>
+          <div class="helpful">Helpful? Yes</div>
+        </div>
+
+        <div class="review-item">
+          <div class="review-details">
+            <div class="reviewer">
+              <img src="assets/img/HOTEL/logo user.png" alt="Reviewer" />
+              <div>
+                <h4>Alby_Mangles</h4>
+                <p class="review-date">Agustus 2024</p>
+              </div>
+            </div>
+            <span class="stars">★★★★★</span>
+          </div>
+          <p class="review-text">
+            I have visited 70 countries and lived in 7 - so I can credibly say that this is one of the best hotels in the world within its class. I also stayed here for 6.5 weeks, so got to know it well. Standout features of this hotel are
+            its service, food, pool, and the best hotel gym I’ve ever seen, which includes a sauna with hot and cold plunge pools.
+          </p>
+          <div class="helpful">Helpful? Yes</div>
+        </div>
+
+        <div class="review-item">
+          <div class="review-details">
+            <div class="reviewer">
+              <img src="assets/img/HOTEL/logo user.png" alt="Reviewer" />
+              <div>
+                <h4>Aan S</h4>
+                <p class="review-date">Agustus 2024</p>
+              </div>
+            </div>
+            <span class="stars">★★★★★</span>
+          </div>
+          <p class="review-text">
+            For reason business, vacation etc. This hotel is the best. Why?? Because The room so cleanned, delicious breakfast, the best facility swimming pool,gymnastic, Excellent service from check-in untuk check-out and the best service
+            from room attendant (utta), I recommend this hotel for you.
+          </p>
+          <div class="helpful">Helpful? Yes</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="text-center">
+          <img src="assets/img/logo2.png" alt="Plesiran Jogja Logo" class="footer-logo" />
+          <div class="mt-1">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="2destination.html">Discovery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="10tour.html">Trip</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="25rental.html">Rent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="27aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="28contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <div class="contact-item">
+              <i class="bi bi-envelope me-2"></i>
+              plesiranjogja@gmail.com
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-telephone me-2"></i>
+              0812345678
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-geo-alt me-2"></i>
+              Sleman, Yogyakarta
+            </div>
+          </div>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="copyright">Copyright © Kel.4B 2024 - All rights Reserved</div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END-->
+
+    <!-- BOOTSTRAP JS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details Destination - Plesiran Jogja</title>
+    <!-- BOOTSRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.6.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/destination.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand me-auto" href="#">
+          <img src="./assets/img/logo.png" alt="Logo" width="172" height="60" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas bg-dark offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/img/logo.png" alt="Logo" width="172" height="60" /></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="1homepage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-lg-2" aria-current="page" href="2destination.html">Discover</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="10tour.html">Trip&Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="18list-hotel.html">Hotel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="25rental.html">Rental</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="assets/img/profile.jpg" alt="Profile" class="profile-image" /></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownProfilButton">
+            <li class="dropdown-item">
+              <i class="fa-regular fa-user"></i>
+              <a href="29profile.html">My Profile</a>
+            </li>
+            <hr />
+            <li class="dropdown-item">
+              <i class="fa-solid fa-file-invoice"></i>
+              <a href="30.myreservasi.html">My Reservation</a>
+            </li>
+            <hr />
+            <li class="dropdown-item">
+              <i class="fa-solid fa-right-from-bracket"></i>
+              <a href="0login.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- CAROUSEL -->
+    <div class="container-fluid p-0">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/borobudur1.jpg" alt="Borobudur1" class="d-block" />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/borobudur2.JPG" alt="Borobudur2" class="d-block" />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/borobudur3.jpeg" alt="Borobudur3" class="d-block" />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/borobudur4.png" alt="Borobudur4" class="d-block" />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/borobudur5.jpeg" alt="Borobudur5" class="d-block" />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/borobudur6.jpg" alt="Borobudur6" class="d-block" />
+          </div>
+        </div>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-secondary rounded-5"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-secondary rounded-5"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- INFORMATION PAGE 1-->
+    <section class="judulinformasi mt-2">
+      <div class="tittle text-center bg-secondary">
+        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+          <li class="tittle-item">
+            <a class="tittle-link text-light">
+              Information
+              <i class="las la-paperclip"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="informasi">
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="deskripsi col-lg-6 order-1 order-lg-1 pe-lg-2 py-5 d-flex flex-column">
+            <h1 class="header mb-4">Borobudur Temple</h1>
+            <h2>What You'll Experience?</h2>
+            <hr style="width: 369px; border: 1px solid #674121; margin-top: 5px" />
+            <p>Visit the largest Buddhist temple in the world, built in the 8th century.</p>
+            <ul>
+              <li>Ascend to the top and be prepared to marvel at its majestic architecture with an additional fee.</li>
+              <li>Admire decorative panels depicting the life of Buddha and ancient Javanese society.</li>
+              <li>Explore the fascinating past by wandering around this grand temple.</li>
+            </ul>
+            <p>Step into history with a visit to Borobudur Temple, the largest Buddhist temple in the world!</p>
+            <ul>
+              <li>Rich in History: Immerse yourself in its rich history and culture as you climb the main pyramid-shaped temple.</li>
+              <li>Take a closer look and admire the thousands of stone carvings portraying Buddha and the life of the Javanese people from centuries ago.</li>
+              <li>Magnificent Architecture: This pyramid-shaped temple boasts a complex structure, carefully designed to awe visitors.</li>
+              <li>Its grandeur and beauty are highlighted by meaningful stone carvings adorning every wall.</li>
+              <li>World Heritage: Built in the 9th century during the reign of the Syailendra Dynasty of the Medang Kingdom, Borobudur Temple is a UNESCO World Heritage Site.</li>
+            </ul>
+            <p>Visit this internationally renowned temple to witness the unique beauty of a heritage from the past.</p>
+          </div>
+          <div class="deskripsi col-lg-6 order-2 order-lg-2 d-flex align-items-center mb-0">
+            <img src="./assets/img/borobudurinfo1.png" alt="Borobudur Informasi" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFORMATION PAGE 1 END-->
+
+    <!-- FASILITAS PAGE 2 -->
+    <section class="fasilitas">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="./assets/img/candi-borobudur.png" class="img-fluid" alt="Borobudur Temple" />
+          </div>
+          <div class="col-md-6">
+            <div class="info-box text-start">
+              <p class="see-box text-light">
+                <i class="las la-clock me-1"></i>
+                <span class="open-text">Open | Sat, 06:30 - 17:00</span>
+                <a href="#" class="opening-hours-link" data-bs-toggle="modal" data-bs-target="#openingHoursModal">See Opening Hours</a>
+              </p>
+
+              <h5 class="judul-info2">Facilities</h5>
+              <div class="row facilities-box mb-1 mt-1">
+                <div class="col-6 facilities-icon"><i class="las la-wifi"></i> WIFI</div>
+                <div class="col-6 facilities-icon"><i class="las la-pray"></i> Praying Room</div>
+                <div class="col-6 facilities-icon"><i class="las la-parking"></i> Parking Area</div>
+                <div class="col-6 facilities-icon"><i class="las la-toilet"></i> Toilet</div>
+                <div class="col-6 facilities-icon"><i class="las la-utensils"></i> Restaurant</div>
+                <div class="col-6 facilities-icon"><i class="las la-wheelchair"></i> Wheel Chair</div>
+                <div class="col-6 facilities-icon"><i class="las la-baby"></i> Breastfeeding room</div>
+              </div>
+              <div class="see-box2 text-light mt-3">
+                <h5 class="judul-info">Additional Information</h5>
+                <ul>
+                  <li>Every Monday, Zone 1 (Borobudur Temple Courtyard/Page) cannot be visited because it is under maintenance by the Borobudur Conservation Center.</li>
+                  <li>Visitors can visit Zone 1 (Borobudur Temple Courtyard/Page) every Tuesday - Sunday at 08:30 - 15:30 WIB. It is not permitted to enter the chamber/climb the temple building.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FASILITAS PAGE 2 END -->
+
+    <!-- ENTRANCE FEES -->
+    <section class="ticket mt-2">
+      <div class="container">
+        <h3 class="judul-info2">Entrance Fees:</h3>
+        <div class="table-responsive">
+          <table class="table table-bordered text-center custom-table">
+            <thead>
+              <tr>
+                <th class="header-cell">Age</th>
+                <th class="header-cell">Domestic Tourist</th>
+                <th class="header-cell">International Tourist</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Adult</td>
+                <td>Rp.50.000,00</td>
+                <td>$ 25</td>
+              </tr>
+              <tr>
+                <td>Children</td>
+                <td>Rp.25.000,00</td>
+                <td>$ 15</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticket mt-2">
+      <div class="container">
+        <h3 class="judul-info2">Entrance Fees:</h3>
+
+        <!-- Struktur div sebagai pengganti tabel untuk tampilan responsif -->
+        <div class="table-responsive">
+          <div class="d-none d-md-block">
+            <!-- Tampilan tabel asli pada layar besar -->
+            <table class="table table-bordered text-center custom-table">
+              <thead>
+                <tr>
+                  <th class="header-cell">Age</th>
+                  <th class="header-cell">Domestic Tourist</th>
+                  <th class="header-cell">International Tourist</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Adult</td>
+                  <td>Rp.50.000,00</td>
+                  <td>$ 25</td>
+                </tr>
+                <tr>
+                  <td>Children</td>
+                  <td>Rp.25.000,00</td>
+                  <td>$ 15</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Tampilan vertikal pada layar kecil -->
+          <div class="d-block d-md-none">
+            <div class="border p-2 mb-2">
+              <div><strong>Age:</strong> Adult</div>
+              <div><strong>Domestic Tourist:</strong> Rp.50.000,00</div>
+              <div><strong>International Tourist:</strong> $ 25</div>
+            </div>
+            <div class="border p-2 mb-2">
+              <div><strong>Age:</strong> Children</div>
+              <div><strong>Domestic Tourist:</strong> Rp.25.000,00</div>
+              <div><strong>International Tourist:</strong> $ 15</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAVEL TIPS -->
+    <section class="travel-tips mt-3">
+      <div class="container">
+        <div class="bg py-1">
+          <h4 class="judul-info3 ms-1">Travel Tips</h4>
+          <ol class="ol-li">
+            <li>It's recommended to visit early in the morning or late in the afternoon for cooler weather.</li>
+            <li>Wear comfortable clothing and appropriate footwear, as the temple grounds are extensive.</li>
+            <li>To see the sunrise at Borobudur, visitors can purchase special tickets at nearby hotels, such as the Manohara Resort, which offers early access.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="location mt-2">
+      <div class="container">
+        <h4 class="judul-info2">Location</h4>
+        <p class="text-p">Jl. Badrawati, Borobudur Temple Complex, Borobudur, Borobudur District, Magelang Regency, Central Java, Indonesia</p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18323.080969052895!2d110.20064903266865!3d-7.612168685879094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8cf009a7d697%3A0xdd34334744dc3cb!2sBorobudur%20Temple!5e0!3m2!1sen!2sid!4v1731041385553!5m2!1sen!2sid"
+            width="100%"
+            height="734"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- OTHER DESTINATION -->
+    <section class="otherdest mt-2 mb-5">
+      <div class="container">
+        <h4 class="judul-info2">Other Destinations</h4>
+        <div class="row g-1">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./assets/img/malioboro.jpg" class="card-img-top h-100" alt="Malioboro" />
+              <div class="card-body">
+                <h5 class="card-title-dest">Malioboro</h5>
+                <p class="card-text-dest">As the official palace of the Sultan of Yogyakarta, the Kraton holds a wealth of history and culture...</p>
+                <a href="#" class="stretched-link">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./assets/img/Keratonyogyakarta.jpeg" class="card-img-top h-100" alt="Keraton Yogyakarta" />
+              <div class="card-body">
+                <h5 class="card-title-dest">Keraton Yogyakarta</h5>
+                <p class="card-text-dest">As the official palace of the Sultan of Yogyakarta, the Kraton holds a wealth of history and culture...</p>
+                <a href="#" class="stretched-link">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./assets/img/tamansari.jpg" class="card-img-top h-100" alt="Taman Sari" />
+              <div class="card-body">
+                <h5 class="card-title-dest">Taman Sari</h5>
+                <p class="card-text-dest">Taman Sari is a historic garden complex once used as a retreat for the royal family. Known for its...</p>
+                <a href="#" class="stretched-link">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POP UP SEE OPENING HOURS -->
+    <section id="openingHoursModal" class="modal fade" tabindex="-1" aria-labelledby="openingHoursModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="openingHoursModalLabel">Opening Hours</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="text-muted mb-3 text-dark">Local Time</p>
+            <!-- Days and Times -->
+            <div class="day-row">
+              <i class="las la-calendar"></i>
+              <span class="day-name">Monday</span>
+              <i class="las la-clock"></i>
+              <span class="time-info">10:00 - 18:00 | Last Redemption Time: 17:00</span>
+            </div>
+            <div class="day-row">
+              <i class="las la-calendar"></i>
+              <span class="day-name">Tuesday</span>
+              <i class="las la-clock"></i>
+              <span class="time-info">10:00 - 18:00 | Last Redemption Time: 17:00</span>
+            </div>
+            <div class="day-row">
+              <i class="las la-calendar"></i>
+              <span class="day-name">Wednesday</span>
+              <i class="las la-clock"></i>
+              <span class="time-info">10:00 - 18:00 | Last Redemption Time: 17:00</span>
+            </div>
+            <div class="day-row">
+              <i class="las la-calendar"></i>
+              <span class="day-name">Thursday</span>
+              <i class="las la-clock"></i>
+              <span class="time-info">10:00 - 18:00 | Last Redemption Time: 17:00</span>
+            </div>
+            <div class="day-row">
+              <i class="las la-calendar"></i>
+              <span class="day-name">Friday</span>
+              <i class="las la-clock"></i>
+              <span class="time-info">10:00 - 18:00 | Last Redemption Time: 17:00</span>
+            </div>
+            <div class="day-row">
+              <i class="las la-calendar"></i>
+              <span class="day-name">Saturday</span>
+              <i class="las la-clock"></i>
+              <span class="time-info">10:00 - 20:00 | Last Redemption Time: 19:00</span>
+            </div>
+            <div class="day-row">
+              <i class="las la-calendar"></i>
+              <span class="day-name">Sunday</span>
+              <i class="las la-clock"></i>
+              <span class="time-info">10:00 - 20:00 | Last Redemption Time: 19:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- POP UP SEE OPENING HOURS END -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="text-center">
+          <img src="assets/img/logo2.png" alt="Plesiran Jogja Logo" class="footer-logo" />
+          <div class="mt-1">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="2destination.html">Discovery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="10tour.html">Trip</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="25rental.html">Rent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="27aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="28contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <div class="contact-item">
+              <i class="bi bi-envelope me-2"></i>
+              plesiranjogja@gmail.com
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-telephone me-2"></i>
+              0812345678
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-geo-alt me-2"></i>
+              Sleman, Yogyakarta
+            </div>
+          </div>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="copyright">Copyright © Kel.4B 2024 - All rights Reserved</div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END-->
+
+    <!-- BOOTSTRAP JS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel - Plesiran Jogja</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/css/list hotel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.6.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand me-auto" href="#">
+          <img src="./assets/img/logo.png" alt="Logo" width="172" height="60" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas bg-dark offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/img/logo.png" alt="Logo" width="172" height="60" /></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="1homepage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="2destination.html">Discover</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="10tour.html">Trip&Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-lg-2" aria-current="page" href="18list-hotel.html">Hotel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="25rental.html">Rental</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="assets/img/profile.jpg" alt="Profile" class="profile-image" /></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownProfilButton">
+            <li class="dropdown-item">
+              <i class="fa-regular fa-user"></i>
+              <a href="29profile.html">My Profile</a>
+            </li>
+            <hr />
+            <li class="dropdown-item">
+              <i class="fa-solid fa-file-invoice"></i>
+              <a href="30.myreservasi.html">My Reservation</a>
+            </li>
+            <hr />
+            <li class="dropdown-item">
+              <i class="fa-solid fa-right-from-bracket"></i>
+              <a href="0login.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- Sidebar Filter -->
+    <main>
+      <aside class="sidebar mb-2">
+        <h2>Where you want to go?</h2>
+        <input type="text" placeholder="Where you want to stay" />
+        <label>Check-in <input type="date" /></label>
+        <label>Check-out <input type="date" /></label>
+        <label>Room <input type="number" min="1" value="1" /></label>
+        <label>Guest <input type="number" min="1" value="1" /></label>
+        <button class="search-btn">Search</button>
+
+        <!-- Star checkboxes go here -->
+        <h3>Stars Rating</h3>
+        <div class="stars">
+          <label><input type="checkbox" /> ★★★★★</label>
+          <label><input type="checkbox" /> ★★★★</label>
+          <label><input type="checkbox" /> ★★★</label>
+          <label><input type="checkbox" /> ★★</label>
+          <label><input type="checkbox" /> ★</label>
+        </div>
+
+        <h3>Facilities</h3>
+        <label><input type="checkbox" /> Wi-Fi</label>
+        <label><input type="checkbox" /> Parking</label>
+        <label><input type="checkbox" /> Swimming Pool</label>
+        <label><input type="checkbox" /> Restaurant</label>
+        <label><input type="checkbox" /> Family Friendly</label>
+      </aside>
+
+      <!-- Hotel Listings -->
+      <section class="hotel-listings">
+        <div class="sort-options">
+          <label>Sort By:</label>
+          <select>
+            <option>Most Popular</option>
+            <option>Guest Rating</option>
+            <option>Name</option>
+            <option>Price</option>
+          </select>
+        </div>
+
+        <!-- Repeat this block for each hotel -->
+        <div class="hotels mt-4">
+          <div class="hotel-card">
+            <img src="assets/img/hotel/hotel-tentrem-yogyakarta.jpg" alt="Hotel" />
+            <a href="19detail-hotel.html" class="hotel-link">
+              <h3>Hotel Tentrem Yogyakarta</h3>
+            </a>
+            <p>Jl. P. Mangkubumi 72A, Yogyakarta, 55233 Indonesia</p>
+            <div class="star-rating">★★★★★</div>
+            <p>3,422 Reviews</p>
+          </div>
+          <div class="hotel-card">
+            <img src="assets/img/hotel/artotel-suites-bianti.jpg" alt="Hotel" />
+            <a href="#" class="hotel-link">
+              <h3>Artotel Suites Yogyakarta</h3>
+            </a>
+            <p>Jl. Urip Sumoharjo 37, Yogyakarta 55222 Indonesia</p>
+            <div class="star-rating">★★★</div>
+            <p>307 Reviews</p>
+          </div>
+          <div class="hotel-card">
+            <img src="assets/img/hotel/el hotel yogyakarta.jpg" alt="Hotel" />
+            <a href="#" class="hotel-link">
+              <h3>éL Hotel Yogyakarta</h3>
+            </a>
+            <p>Jl. Dagen No 06, Yogyakarta 55271 Indonesia</p>
+            <div class="star-rating">★★★★</div>
+            <p>796 Reviews</p>
+          </div>
+          <div class="hotel-card">
+            <img src="assets/img/hotel/facade-1o1-style-yogyakarta.jpg" alt="Hotel" />
+            <a href="#" class="hotel-link">
+              <h3>1o1 Style Yogyakarta</h3>
+            </a>
+            <p>Jl. Gajah Mada No. 30, Yogyakarta 55166 Indonesia</p>
+            <div class="star-rating">★</div>
+            <p>93 Reviews</p>
+          </div>
+          <div class="hotel-card">
+            <img src="assets/img/hotel/gaia-cosmo-hotel.jpg" alt="Hotel" />
+            <a href="#" class="hotel-link">
+              <h3>GAIA Cosmo Hotel</h3>
+            </a>
+            <p>Jl. Ipda Tut Harsono No. 16, Yogyakarta 55165 Indonesia</p>
+            <div class="star-rating">★★★★★</div>
+            <p>1,161 Reviews</p>
+          </div>
+          <div class="hotel-card">
+            <img src="assets/img/hotel/our-hotel-is-located.jpg" alt="Hotel" />
+            <a href="#" class="hotel-link">
+              <h3>Aveta Hotel Malioboro</h3>
+            </a>
+            <p>Jalan Malioboro No. 42, Yogyakarta 55213 Indonesia</p>
+            <div class="star-rating">★★</div>
+            <p>138 Reviews</p>
+          </div>
+          <div class="hotel-card">
+            <img src="assets/img/hotel/hotel-neo-malioboro.jpg" alt="Hotel" />
+            <a href="#" class="hotel-link">
+              <h3>Hotel Neo Malioboro</h3>
+            </a>
+            <p>Jl. Pasar Kembang No. 21, Yogyakarta 55271 Indonesia</p>
+            <div class="star-rating">★★★★★</div>
+            <p>1,718 Reviews</p>
+          </div>
+          <div class="hotel-card">
+            <img src="assets/img/hotel/exterior-view.jpg" alt="Hotel" />
+            <a href="#" class="hotel-link">
+              <h3>Ibis Styles Yogyakarta</h3>
+            </a>
+            <p>Jl. Dagen no. 109, Yogyakarta 55271 Indonesia</p>
+            <div class="star-rating">★★★★★</div>
+            <p>1,497 Reviews</p>
+          </div>
+          <div class="hotel-card">
+            <img src="assets/img/hotel/favehotel-malioboro-yogyakarta.jpg" alt="Hotel" />
+            <a href="#" class="hotel-link">
+              <h3>Favehotel Malioboro</h3>
+            </a>
+            <p>Jl. I Dewa Nyoman Oka no. 30, Yogyakarta 55224 Indonesia</p>
+            <div class="star-rating">★★★</div>
+            <p>349 Reviews</p>
+          </div>
+          <div class="hotel-card">
+            <img src="assets/img/hotel/zest-hotel-yogyakarta.jpg" alt="Hotel" />
+            <a href="#" class="hotel-link">
+              <h3>Zest Hotel Yogyakarta</h3>
+            </a>
+            <p>Jl. Gajah Mada No.28, Yogyakarta 55112 Indonesia</p>
+            <div class="star-rating">★★★</div>
+            <p>312 Reviews</p>
+          </div>
+          <div class="hotel-card">
+            <img src="assets/img/hotel/kotta go yogyakarta.jpg" alt="Hotel" />
+            <a href="#" class="hotel-link">
+              <h3>Kotta Go Yogyakarta</h3>
+            </a>
+            <p>Jl. Pangeran Diponegoro No. 87, Yogyakarta 55231 Indonesia</p>
+            <div class="star-rating">★★</div>
+            <p>137 Reviews</p>
+          </div>
+          <div class="hotel-card">
+            <img src="assets/img/hotel/royal-malioboro-yogyakarta.jpg" alt="Hotel" />
+            <a href="#" class="hotel-link">
+              <h3>Royal Malioboro Yogyakarta</h3>
+            </a>
+            <p>Jl. Pasar Kembang No. 29, Yogyakarta 55271 Indonesia</p>
+            <div class="star-rating">★</div>
+            <p>65 Reviews</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="text-center">
+          <img src="assets/img/logo2.png" alt="Plesiran Jogja Logo" class="footer-logo" />
+          <div class="mt-1">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="2destination.html">Discovery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="10tour.html">Trip</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="25rental.html">Rent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="27aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="28contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <div class="contact-item">
+              <i class="bi bi-envelope me-2"></i>
+              plesiranjogja@gmail.com
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-telephone me-2"></i>
+              0812345678
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-geo-alt me-2"></i>
+              Sleman, Yogyakarta
+            </div>
+          </div>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="copyright">Copyright © Kel.4B 2024 - All rights Reserved</div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END-->
+
+    <!-- BOOTSTRAP JS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

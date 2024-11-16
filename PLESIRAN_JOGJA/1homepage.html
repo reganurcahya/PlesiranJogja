@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage - Plesiran Jogja</title>
+    <!-- BOOTSRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.6.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/homepage.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand me-auto" href="#">
+          <img src="./assets/img/logo.png" alt="Logo" width="172" height="60" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas bg-dark offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/img/logo.png" alt="Logo" width="172" height="60" /></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active mx-lg-2" aria-current="page" href="1homepage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="2destination.html">Discover</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="10tour.html">Trip&Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="18list-hotel.html">Hotel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="25rental.html">Rental</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="assets/img/profile.jpg" alt="Profile" class="profile-image" /></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownProfilButton">
+            <li class="dropdown-item">
+              <i class="fa-regular fa-user"></i>
+              <a href="29profile.html">My Profile</a>
+            </li>
+            <hr />
+            <li class="dropdown-item">
+              <i class="fa-solid fa-file-invoice"></i>
+              <a href="30.myreservasi.html">My Reservation</a>
+            </li>
+            <hr />
+            <li class="dropdown-item">
+              <i class="fa-solid fa-right-from-bracket"></i>
+              <a href="0login.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- BANNER -->
+    <section class="hero-homepage text-center text-light">
+      <div class="hero-overlay"></div>
+      <div class="homepagetxt-overlay"></div>
+      <div class="hero-hmpg-text">
+        <h1>Explore the Magic of Yogyakarta With Us</h1>
+        <p>From breathtaking natural wonders, mouthwatering culinary delights, to rich history and culture. Ready to begin your adventure? Choose your favorite destination and experience the very best of Jogja!</p>
+      </div>
+    </section>
+    <!-- BANNER END -->
+
+    <!-- FAVORITE DESTINATION -->
+    <section class="favorite-destination text-center mt-5">
+      <div class="container">
+        <h1 class="txt2-choice mb-0">Escape To Our</h1>
+        <p class="txt2-pkg mt-0">Favorite Destination</p>
+        <div class="swiper tranding-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./assets/img/kalibiruyogya.jpg" alt="Kalibiru" />
+              </div>
+              <div class="tranding-slide-title">
+                <h5>Kalibiru</h5>
+              </div>
+            </div>
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./assets/img/Jomblang-cave.jpg" alt="Jomblang Cave" />
+              </div>
+              <div class="tranding-slide-title">
+                <h5>Jomblang Cave</h5>
+              </div>
+            </div>
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./assets/img/timangbeach.jpg" alt="Timang Beach" />
+              </div>
+              <div class="tranding-slide-title">
+                <h5>Timang Beach</h5>
+              </div>
+            </div>
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./assets/img/alun.jpg" alt="South Square" />
+              </div>
+              <div class="tranding-slide-title">
+                <h5>South Square</h5>
+              </div>
+            </div>
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./assets/img/borobudurfvdest.jpg" alt="Borobudur Temple" />
+              </div>
+              <div class="tranding-slide-title">
+                <h5>Borobudur Temple</h5>
+              </div>
+            </div>
+          </div>
+          <div class="tranding-slider-control">
+            <div class="swiper-button-prev slider-arrow"></div>
+            <div class="swiper-button-next slider-arrow"></div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-fav-dest position-relative d-inline-block">
+        <button onclick="window.location.href='2destination.html'" class="btn btn-outline-dark mt-3 btn-favdest-margin pe-4">Explore Destination</button>
+        <i class="las la-plus-circle position-absolute exp-dest-icon"></i>
+      </div>
+    </section>
+    <!-- FAVORITE DESTINATION -->
+
+    <!-- PACKAGE HOMEPAGE  -->
+    <section class="package-hmpg text-center mt-4">
+      <div class="container">
+        <h1 class="txt-choice">Choice Your <span class="txt-pkg">Package</span></h1>
+        <div class="row mt-4 row-margin">
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4 card-spacing">
+            <div class="card">
+              <img src="./assets/img/img-package.png" class="card-img-top" alt="Wisata Budaya Yogya" />
+              <div class="card-bodypckg">
+                <h5 class="card-title mt-2">Yogyakarta Cultural Tour</h5>
+                <hr class="line-title mt-2" />
+                <ul class="list-unstyled text-start mt-2 mx-4">
+                  <li><i class="las la-clock color-ikon mx-2"></i> 3 Days</li>
+                  <li><i class="las la-map-marked-alt color-ikon mx-2"></i>5 Destinations</li>
+                  <li><i class="las la-car color-ikon mx-2"></i>Include</li>
+                  <li><i class="las la-hotel color-ikon mx-2"></i>4 Star</li>
+                  <li><i class="las la-tag color-ikon mx-2"></i>Rp. 2.000.000</li>
+                </ul>
+                <hr class="line-list mb-2" />
+                <div class="d-flex justify-content-between">
+                  <a href="#" class="btn btn-pkg1 mt-2 mb-3" onclick="window.location.href='11detailtour.html'">Choose</a>
+                  <a href="#" class="btn btn-pkg2 mt-2 mb-3">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4 card-spacing">
+            <div class="card">
+              <img src="./assets/img/trip1.jpg" class="card-img-top" alt="Wisata Budaya Yogya" />
+              <div class="card-bodypckg">
+                <h5 class="card-title mt-2">Yogyakarta Adventure</h5>
+                <hr class="line-title mt-2" />
+                <ul class="list-unstyled text-start mt-2 mx-4">
+                  <li><i class="las la-clock color-ikon mx-2"></i> 5 Days</li>
+                  <li><i class="las la-map-marked-alt color-ikon mx-2"></i>15 Destinations</li>
+                  <li><i class="las la-car color-ikon mx-2"></i>Include</li>
+                  <li><i class="las la-hotel color-ikon mx-2"></i>3 Star</li>
+                  <li><i class="las la-tag color-ikon mx-2"></i>Rp. 550.000</li>
+                </ul>
+                <hr class="line-list mb-2" />
+                <div class="d-flex justify-content-between">
+                  <a href="#" class="btn btn-primary btn-pkg1 mt-2 mb-3">Choose</a>
+                  <a href="#" class="btn btn-secondary btn-pkg2 mt-2 mb-3">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4 card-spacing">
+            <div class="card">
+              <img src="./assets/img/trip3.jpg" class="card-img-top" alt="Wisata Budaya Yogya" />
+              <div class="card-bodypckg">
+                <h5 class="card-title mt-2">Family Tour</h5>
+                <hr class="line-title mt-2" />
+                <ul class="list-unstyled text-start mt-2 mx-4">
+                  <li><i class="las la-clock color-ikon mx-2"></i> 7 Days</li>
+                  <li><i class="las la-map-marked-alt color-ikon mx-2"></i>25 Destinations</li>
+                  <li><i class="las la-car color-ikon mx-2"></i>Include</li>
+                  <li><i class="las la-hotel color-ikon mx-2"></i>5 Star</li>
+                  <li><i class="las la-tag color-ikon mx-2"></i>Rp. 4.500.000</li>
+                </ul>
+                <hr class="line-list mb-2" />
+                <div class="d-flex justify-content-between">
+                  <a href="#" class="btn btn-primary btn-pkg1 mt-2 mb-3">Choose</a>
+                  <a href="#" class="btn btn-secondary btn-pkg2 mt-2 mb-3">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUSTOMER EXPERIENCE -->
+    <section class="cust-exp-hp text-center my-3">
+      <div class="container">
+        <h1 class="txt-choice">Our Customer <span class="txt-pkg">Experience</span></h1>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <!-- Testimonial 1 -->
+                <div class="col-sm-12 col-md-4 mb-3">
+                  <div class="card rounded-4 shadow-sm">
+                    <div class="card-bodycust">
+                      <img src="./assets/img/org.jpg" class="rounded-circle mt-4 mb-4" alt="Profile Image" />
+                      <h5 class="card-title-cust mb-1">Aulia Youtuber</h5>
+                      <p class="card-text-cust mb-0">Youtuber</p>
+                      <label class="form-check-label mb-2" for="rate5">⭐⭐⭐⭐⭐</label>
+                      <p class="card-text-cust2 mb-4 px-4">Customer testimonials are more effective than paid marketing copy as they take the spotlight away from the seller to shine it on the customers.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="col-sm-12 col-md-4 mb-3">
+                  <div class="card rounded-4 shadow-sm">
+                    <div class="card-bodycust">
+                      <img src="./assets/img/mandavlogger.jpg" class="rounded-circle mt-4 mb-4" alt="Profile Image" />
+                      <h5 class="card-title-cust mb-1">Manda Vlogger</h5>
+                      <p class="card-text-cust mb-0">Vlogger</p>
+                      <label class="form-check-label mb-2" for="rate5">⭐⭐⭐⭐⭐</label>
+                      <p class="card-text-cust2 mb-4 px-4">Creates memorable itineraries, and shares authentic experiences with his audience. His journeys are now smoother, more organized, and enriched by the convenience.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="col-sm-12 col-md-4 mb-3">
+                  <div class="card rounded-4 shadow-sm">
+                    <div class="card-bodycust">
+                      <img src="./assets/img/donyadv.jpg" class="rounded-circle mt-4 mb-4" alt="Profile Image" />
+                      <h5 class="card-title-cust mb-1">Dony</h5>
+                      <p class="card-text-cust mb-0">Adventurer</p>
+                      <label class="form-check-label mb-2" for="rate5">⭐⭐⭐⭐⭐</label>
+                      <p class="card-text-cust2 mb-4 px-4">As an avid adventurer, users of this app can discover hidden gems, plan thrilling expeditions, and stay organized on the go making every trip an unforgettable experience.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-4 mb-3">
+                  <div class="card rounded-4 shadow-sm">
+                    <div class="card-bodycust">
+                      <img src="./assets/img/aisyahvlog.jpg" class="rounded-circle mt-4 mb-4" alt="Profile Image" />
+                      <h5 class="card-title-cust mb-1">Aisyah Vlogger</h5>
+                      <p class="card-text-cust mb-0">Vlogger</p>
+                      <label class="form-check-label mb-2" for="rate5">⭐⭐⭐⭐⭐</label>
+                      <p class="card-text-cust2 mb-4 px-4">Customer testimonials are more effective than paid marketing copy as they take the spotlight away from the seller to shine it on the customers.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="col-sm-12 col-md-4 mb-3">
+                  <div class="card rounded-4 shadow-sm">
+                    <div class="card-bodycust">
+                      <img src="./assets/img/damaentre.jpeg" class="rounded-circle mt-4 mb-4" alt="Profile Image" />
+                      <h5 class="card-title-cust mb-1">Dama</h5>
+                      <p class="card-text-cust mb-0">Entrepeneur</p>
+                      <label class="form-check-label mb-2" for="rate5">⭐⭐⭐⭐⭐</label>
+                      <p class="card-text-cust2 mb-4 px-4">Creates memorable itineraries, and shares authentic experiences with his audience. His journeys are now smoother, more organized, and enriched by the convenience.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="col-sm-12 col-md-4 mb-3">
+                  <div class="card rounded-4 shadow-sm">
+                    <div class="card-bodycust">
+                      <img src="./assets/img/regaadv.jpg" class="rounded-circle mt-4 mb-4" alt="Profile Image" />
+                      <h5 class="card-title-cust mb-1">Rega</h5>
+                      <p class="card-text-cust mb-0">Adventurer</p>
+                      <label class="form-check-label mb-2" for="rate5">⭐⭐⭐⭐⭐</label>
+                      <p class="card-text-cust2 mb-4 px-4">As an avid adventurer, users of this app can discover hidden gems, plan thrilling expeditions, and stay organized on the go making every trip an unforgettable experience.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- CUSTOMER EXPERIENCE END -->
+
+    <!-- TRAVEL TRIP WITH US -->
+    <section class="travel-section py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-center">
+            <div class="position-relative">
+              <img src="./assets/img/large-tripwus.png" class="img-fluid large-image rounded-circle" alt="Prambanan" />
+              <img src="./assets/img/small-tripwus.png" class="img-fluid small-image rounded-circle position-absolute" alt="Taman Sari" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="txt-choice mb-0 text-center">What Should Trip</h1>
+            <h2 class="txt-pkg mt-0 text-center">With Us?</h2>
+            <ul class="list-unstyled mx-5">
+              <li class="d-flex align-items-start mb-4">
+                <div class="icon-container me-3">
+                  <i class="fa-solid fa-person-chalkboard"></i>
+                </div>
+                <div>
+                  <h5 class="txt-us">Professional Guide</h5>
+                  <p class="txt-us2">Experienced and friendly guides make your holiday safe and comfortable.</p>
+                </div>
+              </li>
+              <li class="d-flex align-items-start mb-4">
+                <div class="icon-container me-3">
+                  <i class="fa-solid fa-money-bill-wave"></i>
+                </div>
+                <div>
+                  <h5 class="txt-us">An Affordable Price</h5>
+                  <p class="txt-us2">Enjoy quality travel experiences without breaking the bank.</p>
+                </div>
+              </li>
+              <li class="d-flex align-items-start mb-4">
+                <div class="icon-container me-3">
+                  <i class="fa-regular fa-hand-back-fist"></i>
+                </div>
+                <div>
+                  <h5 class="txt-us">Easy Booking</h5>
+                  <p class="txt-us2">Book your trip in just a few clicks, hassle-free.</p>
+                </div>
+              </li>
+            </ul>
+            <button class="btn btn-about-us mt-3 justify-content-center" onclick="window.location.href='27aboutus.html'">About Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TRAVEL TRIP END -->
+
+    <!-- FOOTER-->
+    <footer class="footer">
+      <div class="container">
+        <div class="text-center">
+          <img src="assets/img/logo2.png" alt="Plesiran Jogja Logo" class="footer-logo" />
+          <div class="mt-1">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="2destination.html">Discovery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="10tour.html">Trip</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="25rental.html">Rent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="27aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="28contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <div class="contact-item">
+              <i class="bi bi-envelope me-2"></i>
+              plesiranjogja@gmail.com
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-telephone me-2"></i>
+              0812345678
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-geo-alt me-2"></i>
+              Sleman, Yogyakarta
+            </div>
+          </div>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="copyright">Copyright © Kel.4B 2024 - All rights Reserved</div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END-->
+
+    <!-- BOOTSTRAP JS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

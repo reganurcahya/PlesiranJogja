@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plesiran Jogja</title>
+    <link rel="stylesheet" href="assets/css/hotel/detail pembayaran 3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="navbar">
+        <img src="logo.png" alt="Logo" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Tour & Trip</a></li>
+            <li><a href="#">Hotel</a></li>
+            <li><a href="#">Rental</a></li>
+          </ul>
+        </nav>
+        <div class="user-icon"><img src="img/user.jpeg" alt="User" /></div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>HOTEL TENTREM YOGYAKARTA</h1>
+        <p><i class="fas fa-info-circle"></i> Payment Information</p>
+        <div class="booking-info">
+          <!-- Bagian Date -->
+          <div class="date">
+            <i class="fas fa-calendar-alt"></i>
+            November 10 - November 11
+            <i class="fas fa-caret-down"></i>
+          </div>
+
+          <!-- Bagian Rooms -->
+          <div class="rooms">
+            <i class="fas fa-user"></i>
+            <select class="room-selector">
+              <option>1 Room, 1 Adult</option>
+              <option>1 Room, 2 Adults</option>
+              <option>2 Rooms, 2 Adults</option>
+              <option>2 Rooms, 3 Adults</option>
+              <option>2 Rooms, 4 Adults</option>
+              <option>3 Rooms, 5 Adults</option>
+            </select>
+            <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+      <div class="step active"></div>
+      <div class="step active"></div>
+      <div class="step"></div>
+    </div>
+
+    <!-- Accordion -->
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header">
+          <span class="number">1.</span>
+          <span class="title">Detail Reservation</span>
+          <i class="fas fa-caret-down"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Personal Data Form -->
+    <div class="personal-data">
+      <div class="data-header">
+        <span class="number">2.</span>
+        <h2>Personal Data</h2>
+      </div>
+      <div class="data-body">
+        <form>
+          <label for="name">Full Name :</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email Address :</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Phone Number :</label>
+          <input type="tel" id="phone" name="phone" required />
+
+          <button class="next-button" type="submit">Next</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Accordion -->
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header">
+          <span class="number">3.</span>
+          <span class="title">Payment</span>
+          <i class="fas fa-caret-down"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- Logo and Navigation Links -->
+        <div class="footer-section footer-navigation">
+          <img src="logo.png" alt="Plesiran Jogja Logo" class="footer-logo" />
+          <nav>
+            <a href="#">Discovery</a>
+            <a href="#">Trip</a>
+            <a href="#">Rent</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+          </nav>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="footer-section footer-contact">
+          <p><i class="fas fa-envelope"></i> plesiranjogja@gmail.com</p>
+          <p><i class="fas fa-phone-alt"></i> 0812345678</p>
+          <p><i class="fas fa-map-marker-alt"></i> Sleman, Yogyakarta</p>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="footer-section footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <p class="footer-copyright">Copyright © 2024 - All rights Reserved</p>
+    </footer>
+  </body>
+</html>

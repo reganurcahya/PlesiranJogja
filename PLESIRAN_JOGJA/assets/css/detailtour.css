@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap");
+
+:root {
+  --sub-navbar-bg: rgba(255, 255, 255, 0.2);
+  --sub-hero-bg: rgba(0, 0, 0, 0.5);
+  --overlay-bg: rgba(0, 0, 0, 0.6);
+  --color-body: #fbfbfb;
+  --color-ikon: #000000;
+  --color-text-putih: #fff;
+}
+
+body {
+  font-family: "Source Serif Pro", serif;
+  align-items: center;
+  background-color: var(--color-body);
+}
+
+/* NAVBAR */
+.navbar {
+  font-size: 16px;
+}
+.dropdown {
+  padding: 0 80px;
+}
+.dropdown-menu .dropdown-item {
+  line-height: 10px;
+  text-align: left;
+}
+.dropdown-menu hr {
+  border: 0;
+  height: 1px;
+  background-color: #000000;
+  margin: 10px 0;
+  width: 100%;
+}
+.dropdown-menu .dropdown-item i {
+  width: 22px;
+  height: 22px;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.dropdown-menu a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+.dropdown-menu a:hover {
+  text-decoration: none;
+}
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:active {
+  background-color: #b29a73;
+  color: black;
+}
+.dropdown-menu .dropdown-item a {
+  color: inherit;
+  text-decoration: none;
+  padding-left: 4px;
+}
+.dropdown-menu .dropdown-item a:hover,
+.dropdown-menu .dropdown-item a:focus,
+.dropdown-menu .dropdown-item a:active {
+  color: inherit;
+}
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+}
+.navbar .nav-link,
+.navbar .dropdown-menu .dropdown-item {
+  font-size: 16px;
+}
+.navbar-dark .nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link.active {
+  color: #b29a73;
+}
+/* NAVBAR UTAMA END */
+
+/* ISI */
+.hero-det-tour {
+  position: relative;
+  height: 700px;
+  background: url("../img/TOUR/123456.webp") no-repeat center center/cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-det-tour h1 {
+  font-size: 48px;
+  z-index: 1;
+}
+.hero-det-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.content {
+  padding: 0 80px;
+}
+.txt-content h2 {
+  margin-top: 67px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.txt-content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 14px;
+}
+.des-tour {
+  padding: 0 80px;
+}
+.txt-content {
+  margin-top: 62px;
+}
+.txt-content ul li {
+  font-size: 16px;
+  font-weight: 600;
+}
+.det-price {
+  padding: 0 80px;
+}
+.fees-included {
+  padding: 0 80px;
+}
+.booking-form {
+  padding: 0 80px;
+  background-color: #d2b48c;
+}
+.booking-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.booking-form input,
+.booking-form select,
+.booking-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+.booking-form {
+  margin-bottom: 36px;
+}
+.btn-custom {
+  background-color: #f9f9f9;
+  border: none;
+  color: black;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 0;
+  margin-top: 10px;
+}
+.txt-form {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* FOOTER */
+/* Footer Styles */
+.footer {
+  background-color: #f5f0e6;
+  padding: 4rem 0 2rem 0;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-bottom: 1.5rem;
+}
+
+.footer .nav-link {
+  color: #000;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer .nav-link:hover {
+  color: #b5a182;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  color: #666;
+}
+
+.social-icons {
+  margin: 2rem 0;
+}
+
+.social-icons a {
+  color: #000;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #b5a182;
+}
+
+.copyright {
+  color: #666;
+  font-size: 0.9rem;
+}
+/* FOOTER END */
